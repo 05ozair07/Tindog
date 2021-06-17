@@ -1,0 +1,184 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+h1,h2,h3,h4 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  padding: 5%;
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+  }
+
+  /* SECTION */
+
+  .colour-sec{
+    color: #fff;
+    background-color: #ff4c68;
+
+  }
+
+.white-sec{
+  background-color: #fff;
+
+}
+
+/*HEADINGS*/
+
+.bh{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sec-head{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* NAVIGATION SECTION */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.tim {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  top: 3%;
+}
+
+.db {
+  margin: 5% 3% 5% 0;
+}
+
+/*TITLE SECTION */
+
+#title .container-fluid{
+text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* FEATURES SECTION */
+#features {
+position: relative;
+  /*z-index: 1*/
+}
+
+.fb {
+  padding: 4.5%;
+}
+
+.fh{
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*TESTIMONAL SECTION*/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.ttt{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/*press part*/
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.prim {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing SECTION */
+#pricing {
+  padding: 100px;
+  }
+
+.colu {
+  padding: 3% 2%;
+}
+
+.ptt{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+.pp {
+  padding: 0%;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .tim {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+
+
+
+/* CALL-TO-ACTION SECTION */
+
+
+
+/* Footer section*/
+
+
+#footer{
+padding:7% 15%;
+}
+
+.fic{
+  padding:0 1.5%;
+}
